@@ -4,5 +4,5 @@ from conapp import views
 
 urlpatterns = [
     path('', views.index),
-    path('submit/', views.index),
+    path('submit/', views.submit),
 ]
